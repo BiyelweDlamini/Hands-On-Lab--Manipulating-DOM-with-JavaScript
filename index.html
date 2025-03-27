@@ -85,8 +85,13 @@
 
             // add text to span container
 
-            span.textContent = task;
+            const tasktext = document.createElement("span");
+
+            tasktext.textContent = task;
+
             list.appendChild(span);
+
+            span.appendChild(tasktext);
 
             // create edit button and append it to Span element
 
@@ -112,9 +117,27 @@
             alert("Please Enter a Task before clicking on add Task.")
         }
 
-
-
     }
+
+
+    // Function to edit an existing task
+    function editTask(tasktext) {
+    // Prompt the user to enter a new task description
+        const newTask = prompt("Edit your task:");
+    
+    // Update the task only if the input is not null or empty
+        if (newTask !== null && newTask.trim() !== "") {
+
+               const edit = document.createElement("button");
+               const Delete = document.createElement("button");
+
+
+               tasktext.textContent = newTask.trim(); // Set the new task text
+               edit.textContent = "Edit Task";
+               Delete.textContent = "Delete Task";
+        }
+    }
+
 </script>
 
 </body>
