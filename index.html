@@ -93,7 +93,7 @@
             const edit = document.createElement("button");
             edit.textContent = "Edit Task";
             edit.onclick = () => {
-                editTask(span)
+                editTask(span);
             }
             span.appendChild(edit);
 
@@ -104,6 +104,7 @@
             Delete.onclick = () => {
                 removeTask(list);
             }
+            span.appendChild(Delete)
 
 
 
