@@ -46,14 +46,52 @@
     <button class="add-btn" onclick="addTask()">Add Task</button>
     
     <!-- Unordered list to display the tasks -->
+
+    <!--
+    <li>
+    <span>
+        Buy Grocessaries
+        <button>Edit</button>
+        <button>Delete</button>
+    </span>
+    </li>-->
+
     <ul class="todo-list" id="todoList"></ul>
+
 </div>
 
 <script>
     // Placeholder for functionality to be added in future exercises
 
     function addTask(){
-        document.getElementById('taskInput').value;
+
+        const input = document.getElementById('taskInput');
+        const task = input.value.trim();
+
+        if(task != ""){
+
+            const ul = document.getElementById("todoList");
+
+            //create the list item and attaching it to the unordered list
+            const list = document.createElement("li");
+            ul.appendChild(list);
+
+            //create span element to contain text, edit button, and delete button
+            const span = document.createElement("span");
+            
+            // add text to span container
+            span.textContent = task
+            list.appendChild(span);
+
+
+            
+
+
+
+        }
+
+
+
     }
 </script>
 
