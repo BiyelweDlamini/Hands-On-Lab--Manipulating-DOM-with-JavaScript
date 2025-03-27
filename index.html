@@ -70,17 +70,22 @@
 
         if(task != ""){
 
+            //Declare the ul element and use DOM to get element by ID
+
             const ul = document.getElementById("todoList");
 
             //create the list item and attaching it to the unordered list
+
             const list = document.createElement("li");
             ul.appendChild(list);
 
             //create span element to contain text, edit button, and delete button
+
             const span = document.createElement("span");
-            
+
             // add text to span container
-            span.textContent = task
+
+            span.textContent = task;
             list.appendChild(span);
 
 
