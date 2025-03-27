@@ -88,8 +88,22 @@
             span.textContent = task;
             list.appendChild(span);
 
+            // create edit button and append it to Span element
 
+            const edit = document.createElement("button");
+            edit.textContent = "Edit Task";
+            edit.onclick = () => {
+                editTask(span)
+            }
+            span.appendChild(edit);
+
+            // create delete button and append it to Span element
             
+            const Delete = document.createElement("button");
+            Delete.textContent = "Delete Task";
+            Delete.onclick = () => {
+                removeTask(list);
+            }
 
 
 
