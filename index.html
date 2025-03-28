@@ -135,6 +135,10 @@
                tasktext.textContent = newTask.trim(); // Set the new task text
                edit.textContent = "Edit Task";
                Delete.textContent = "Delete Task";
+
+               tasktext.appendChild(edit);
+               
+               tasktext.appendChild(Delete);
         }
     }
 
