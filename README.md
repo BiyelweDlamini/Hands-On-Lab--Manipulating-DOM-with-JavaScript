@@ -10,5 +10,5 @@ I used HTML to structure the container I used to collect the information (the ta
 using the Add Task button that invokes the JavaScript function "addTask" whenever the button is clicked to add a task onto the container, you can write your task on the input field and add it to your to-do list when you click the add task button.
 
 ![Alt text](screenshots/Add_Display.png)
-![Screenshot1](screenshots/Add_Display.png)
+
 
