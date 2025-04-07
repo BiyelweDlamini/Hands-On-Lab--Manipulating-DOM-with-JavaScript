@@ -19,3 +19,10 @@ using the edit task button, you can edit on a prompt window. In the screenshots 
 ![Alt text](screenshots/Edit_Display.png)
 
 
+# Remove a task
+
+by clicking on the delete button, you can remove a task along with it's child embedded buttons "Edit Task" and "Delete Task"
+
+![Alt text](screenshots/delete_before.png)
+![Alt text](screenshots/delete_after.png)
+
