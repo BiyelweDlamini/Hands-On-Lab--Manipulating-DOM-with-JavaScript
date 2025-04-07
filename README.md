@@ -15,7 +15,12 @@ using the Add Task button that invokes the JavaScript function "addTask" wheneve
 
 using the edit task button, you can edit on a prompt window. In the screenshots below you can see a  task being edited from "Getting Better" to "Getting Well".
 
+BEFORE
+
 ![Alt text](screenshots/Edit_Initial.png)
+
+AFTER
+
 ![Alt text](screenshots/Edit_Display.png)
 
 
@@ -23,6 +28,11 @@ using the edit task button, you can edit on a prompt window. In the screenshots 
 
 by clicking on the delete button, you can remove a task along with it's child embedded buttons "Edit Task" and "Delete Task"
 
+BEFORE
+
 ![Alt text](screenshots/delete_before.png)
+
+AFTER
+
 ![Alt text](screenshots/delete_after.png)
 
