@@ -11,4 +11,11 @@ using the Add Task button that invokes the JavaScript function "addTask" wheneve
 
 ![Alt text](screenshots/Add_Display.png)
 
+# Edit a task
+
+using the edit task button, you can edit on a prompt window. In the screenshots below you can see a  task being edited from "Getting Better" to "Getting Well".
+
+![Alt text](screenshots/Edit_Initial.png)
+![Alt text](screenshots/Edit_Display.png)
+
 
