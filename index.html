@@ -144,15 +144,11 @@
 
     // Function to Delete a task from the to-do list.
 
-    function deleteTask(){
+    function removeTask(tasktext){
 
         //Function content
 
-        if (newTask !== null && newTask.trim() !== "") {
-        
-            delete newTask; 
-        
-        }
+            tasktext.remove();
         
     }
 
